@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../Misc/react-test/task-app"
+    },
+    {
+      "path": "../Library-App"
+    }
+  ],
+  "settings": {}
+}
