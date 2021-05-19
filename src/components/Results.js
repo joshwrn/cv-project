@@ -5,23 +5,23 @@ const Results = ({ item }) => {
     <div className="main">
       <div>
         <h2 className="header">Personal</h2>
-        <p className="item"> Name: {item.name}</p>
-        <p className="item"> Email: {item.email}</p>
-        <p className="item"> Phone: {item.phone}</p>
+        <p className="item">Name: {item.name}</p>
+        <p className="item">Email: {item.email}</p>
+        <p className="item">Phone: {item.phone}</p>
       </div>
       <div className="practical">
         <h2 className="header">Job Experience</h2>
-        <p className="item"> Company: {item.company}</p>
-        <p className="item"> Position: {item.position}</p>
-        <p className="item"> Tasks: {item.tasks}</p>
-        <p className="item"> Start Date: {item.start}</p>
-        <p className="item"> End Date: {item.end}</p>
+        <p className="item">Company: {item.company}</p>
+        <p className="item">Position: {item.position}</p>
+        <p className="item">Tasks: {item.tasks}</p>
+        <p className="item">Start Date: {item.start}</p>
+        <p className="item">End Date: {item.end}</p>
       </div>
       <div>
         <h2 className="header">Education</h2>
-        <p className="item"> Name: {item.school}</p>
-        <p className="item"> Email: {item.study}</p>
-        <p className="item"> Phone: {item.date}</p>
+        <p className="item">School: {item.school}</p>
+        <p className="item">Study: {item.study}</p>
+        <p className="item">Date: {item.date}</p>
       </div>
     </div>
   );
