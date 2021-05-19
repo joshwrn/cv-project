@@ -1,5 +1,5 @@
 import React from 'react';
-import InputBox from './small/InputBox';
+import InputBox from '../small/InputBox';
 
 const General = ({ onChange, item }) => {
   return (

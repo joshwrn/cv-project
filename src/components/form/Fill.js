@@ -1,7 +1,7 @@
 import React from 'react';
-import General from './General';
-import Education from './Education';
-import Practical from './Practical';
+import General from '../form-sections/General';
+import Education from '../form-sections/Education';
+import Practical from '../form-sections/Practical';
 
 const Fill = ({ onChange, item }) => {
   return (

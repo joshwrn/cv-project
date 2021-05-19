@@ -28,6 +28,10 @@ body {
 
 /*+ MAIN */
 
+.App {
+  text-align: center;
+}
+
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
