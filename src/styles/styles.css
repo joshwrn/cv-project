@@ -87,6 +87,7 @@ select,
 textarea {
   color: white;
   text-align: left;
+  font-family: helvetica;
 }
 
 input:focus {
@@ -95,11 +96,27 @@ input:focus {
 
 input::placeholder {
   color: rgb(126, 126, 126);
+  font-family: helvetica;
 }
 
 textarea:focus,
 input:focus {
   outline: none;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  filter: opacity(50%) invert(100%);
+}
+
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-year-field {
+  color: rgb(126, 126, 126);
+}
+
+::-webkit-datetime-edit-text {
+  color: rgb(126, 126, 126);
+  padding: 0 0.3em;
 }
 
 /*+ BUTTON */

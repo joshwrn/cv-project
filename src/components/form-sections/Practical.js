@@ -23,17 +23,21 @@ const Practical = ({ onChange, item }) => {
         name="tasks"
         placeholder="Main Tasks of Your Jobs"
       />
-      <InputBox
+      <input
         onChange={onChange}
         value={item.start}
         name="start"
         placeholder="Job Start Date"
+        type="date"
+        className="input-box"
       />
-      <InputBox
+      <input
         onChange={onChange}
         value={item.end}
         name="end"
         placeholder="Job End Date"
+        type="date"
+        className="input-box"
       />
     </div>
   );

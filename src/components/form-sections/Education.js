@@ -17,11 +17,13 @@ const Education = ({ onChange, item }) => {
         name="study"
         placeholder="Study"
       />
-      <InputBox
+      <input
         onChange={onChange}
         value={item.date}
         name="date"
         placeholder="Date Studied"
+        type="date"
+        className="input-box"
       />
     </div>
   );
