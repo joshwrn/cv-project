@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FullForm from './components/form/FullForm';
+import styles from './styles/styles.css';
 
 function App() {
   return (
